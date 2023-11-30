@@ -367,7 +367,13 @@ export const archiveDoneJobsFirstTimeRedux = createAsyncThunk(
         baseMoney: payload.userSettings.baseMoney,
         email: payload.userSettings.email,
         eurCzkRate: payload.newEurCzkRate,
+        nameFirst: payload.userSettings.nameFirst,
+        nameSecond: payload.userSettings.nameSecond,
+        numberEm: payload.userSettings.numberEm,
+        numberTrailer: payload.userSettings.numberTrailer,
+        numberTruck: payload.userSettings.numberTruck,
         percentage: payload.userSettings.percentage,
+        referenceId: payload.userSettings.referenceId,
         secondJobBenefit: payload.userSettings.secondJobBenefit,
         terminal: payload.userSettings.terminal,
         waitingBenefitEmployerCzk:

@@ -165,7 +165,7 @@ const Register = () => {
         <form className="change-form">
           <Heading text={"Registrace"} />
 
-          <InputField
+          {/* <InputField
             type={"email"}
             label={"email"}
             value={registerEmail}
@@ -226,7 +226,8 @@ const Register = () => {
             }
             confirmFunction={handleRegister}
             declineFunction={handleDecline}
-          />
+          /> */}
+          <h1 className="text-shadow">Probíhá údržba, vraťte se později</h1>
 
           <br />
           <p className="login-register-bottom-link">

@@ -148,6 +148,20 @@ const Dashboard = () => {
         secondJobBenefit,
         waitingBenefitEmployerCzk,
         waitingBenefitEur,
+
+        // baseMoney: 0,
+        // email: "",
+        // eurCzkRate: 0,
+        // nameFirst: "",
+        // nameSecond: "",
+        // numberEm: "",
+        // numberTrailer: "",
+        // numberTruck: "",
+        // percentage: 0,
+        // secondJobBenefit: 0,
+        // terminal: "",
+        // waitingBenefitEmployerCzk: 0,
+        // waitingBenefitEur: 0,
       },
     };
 
@@ -165,7 +179,7 @@ const Dashboard = () => {
         userSettings,
         newEurCzkRate,
       };
-
+      console.log(payload);
       dispatch(archiveDoneJobsFirstTimeRedux(payload));
     }
     // Pokud archív NENÍ prázdný
